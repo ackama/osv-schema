@@ -140,6 +140,6 @@ def update_go_constants():
   open('packages/go/constants/constants.go', 'w').write(go)
 
 
-update_go_constants()
-update_json_schema()
+# update_go_constants()
+# update_json_schema()
 update_schema_md()
